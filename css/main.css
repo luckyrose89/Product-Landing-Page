@@ -1,0 +1,9 @@
+/* Header Styles */
+.navbar-brand img {
+    padding-bottom: 5px;
+    vertical-align: top;
+}
+
+#header h3{
+    font-weight: lighter;
+}
