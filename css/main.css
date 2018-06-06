@@ -1,5 +1,7 @@
 /* Header Styles */
-.navbar-brand img {
+#header-img {
+    width: 40px;
+    height: 40px;
     padding-bottom: 5px;
     vertical-align: top;
 }
