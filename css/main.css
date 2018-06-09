@@ -9,3 +9,24 @@
 #header h3{
     font-weight: lighter;
 }
+
+/* Slideshow Styles */
+.carousel-item img {
+    height: 500px;
+}
+
+.carousel-caption {
+    color: #040404;
+    font-style: oblique;
+}
+
+.carousel-indicators li {
+    background-color: #040404;
+}
+
+.carousel-indicators .active {
+    background-color: #666;
+}
+
+
+

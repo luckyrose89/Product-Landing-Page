@@ -13,7 +13,7 @@
 
 <body>
     <header id="header">
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark" id="nav-bar">
             <a class="navbar-brand" href="#">
                 <img src="img/call-center.png" alt="brand" id="header-img">
                 <h3 class="d-inline-flex">Bot Managers</h3>
@@ -25,10 +25,13 @@
             <div class="collapse navbar-collapse justify-content-lg-end" id="navbarNavDropdown">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a href="#" class="nav-link">Home</a>
+                        <a href="#" class="nav-link">Features</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#" class="nav-link">Blog</a>
+                        <a href="#" class="nav-link">News</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Demo</a>
                     </li>
                     <li class="nav-item">
                         <a href="#" class="nav-link">Contact</a>
@@ -37,6 +40,36 @@
             </div>
         </nav>
     </header>
+    <section id="slideshow" class="carousel slide" data-ride="carousel" data-interval="3000">
+        <ol class="carousel-indicators text-dark">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img class="d-block w-100 img-fluid" src="img/bots-eg-4.png" alt="First slide">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Phasellus id aliquam</h5>
+                    <p>Donec vitae accumsan tortor. In ac metus est. Quisque tempus dui quam, vitae tincidunt risus sollicitudin at</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100 img-fluid" src="img/bots-eg-5.png" alt="Second slide">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Nullam risus ante</h5>
+                    <p>Donec vitae accumsan tortor. In ac metus est. Quisque tempus dui quam, vitae tincidunt risus sollicitudin at</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100 img-fluid" src="img/bots-eg-6.jpg" alt="Third slide">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Quisque tempus</h5>
+                    <p>Donec vitae accumsan tortor. In ac metus est. Quisque tempus dui quam, vitae tincidunt risus sollicitudin at</p>
+                </div>
+            </div>
+        </div>
+    </section>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
         crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
