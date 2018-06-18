@@ -51,8 +51,8 @@
 
 /* Footer Styles */
 
-footer {
-
+footer i {
+    padding-right: 5px;
 }
 
 /* Media Queries */
