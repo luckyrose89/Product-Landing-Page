@@ -40,6 +40,20 @@
     border-right: 1px solid #dee2e6;
 }
 
+/* Video-Demo styles */
+
+#video-demo {
+    background: #dee2e6;
+}
+.video-title {
+    margin-bottom: 15px;
+}
+
+/* Footer Styles */
+
+footer {
+
+}
 
 /* Media Queries */
 @media(max-width:992px) {
