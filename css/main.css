@@ -28,7 +28,28 @@
     background-color: #666;
 }
 
+/* Feature Styles*/
+
+.feature-divider {
+    margin-top: 5rem;
+}
+
 /* Form Styles */
 
+.form-container {
+    border-right: 1px solid #dee2e6;
+}
 
 
+/* Media Queries */
+@media(max-width:992px) {
+    .form-container {
+        border-right: none;
+    } 
+}
+
+@media(max-width:786px) {
+    .form-container {
+        margin-bottom: 50px;
+    }
+}
